@@ -1,0 +1,38 @@
+.section-1 {
+    width: 100%;
+}
+.section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .image-display {
+        flex:1;
+        max-width: 50vw;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .image-text {
+        flex:1;
+        textarea {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.section-3 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .proggress-bar {
+        .proggress-text {
+            text-align: center;
+        }
+    }
+    & > div {
+        flex: 1;
+    }
+}
